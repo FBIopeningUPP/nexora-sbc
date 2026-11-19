@@ -1,0 +1,15 @@
+*.kicad_prl
+!/hardware/Nexora-SBC.kicad_prl
+~*.lck
+*-backups/
+
+# KiCad local history and temporary files
+.history/
+*.lck
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Desktop metadata
+.DS_Store
+Thumbs.db

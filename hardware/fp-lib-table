@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Nexora") (type "KiCad") (uri "${KIPRJMOD}/libraries/Nexora.pretty") (options "") (descr "Nexora project library"))
+)

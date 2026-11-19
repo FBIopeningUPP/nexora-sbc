@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5f0eb8c4-09f2-4ff6-9b41-07420c3d4af7")
+	(paper "A3")
+	(title_block
+		(title "Nexora SBC - eMMC, SPI-Flash, T-Card and Boot")
+	)
+	(lib_symbols)
+	(text "eMMC / NAND / SPI flash"
+		(exclude_from_sim no)
+		(at 45 27 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "1f11cba6-1f61-4f0e-923e-8c7c6d2d885f")
+	)
+	(text "microSD"
+		(exclude_from_sim no)
+		(at 236 159 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "2c792200-afb7-489f-8814-ff0f94c71601")
+	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 323 236 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "aa2d784b-2dc0-49ba-ace0-40d495824698")
+	)
+	(text "Boot selection and clocks"
+		(exclude_from_sim no)
+		(at 45 159 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "d0c83840-2740-4bcd-b7b6-51d142d4dbf1")
+	)
+)

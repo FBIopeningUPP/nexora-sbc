@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0146c3e4-a7cc-41a7-aabd-9ae36a2d0016")
+	(paper "A2")
+	(title_block
+		(title "Nexora SBC - STM32MP157 and DDR3L")
+	)
+	(lib_symbols)
+	(text "DDR3L and STM32MP157 memory interface"
+		(exclude_from_sim no)
+		(at 60 35 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "6812d424-de13-418f-b0ba-993c25e32695")
+	)
+	(sheet
+		(at 138.39 378.46)
+		(size 84 17)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0bc3b2ca-ccff-4ce2-95bb-28c06b3aabbc")
+		(property "Sheetname" "HDMI, LCD and Ethernet"
+			(at 138.39 377.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/03-Display-and-Ethernet.kicad_sch"
+			(at 138.39 396.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexora-SBC"
+				(path "/0146c3e4-a7cc-41a7-aabd-9ae36a2d0016"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 326.39 378.46)
+		(size 84 17)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2fa72fd9-9e9a-4ea3-ab25-9bcef6af4a3e")
+		(property "Sheetname" "USB, CAN and Extensions"
+			(at 326.39 377.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/05-USB-CAN-and-Extensions.kicad_sch"
+			(at 326.39 396.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexora-SBC"
+				(path "/0146c3e4-a7cc-41a7-aabd-9ae36a2d0016"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.39 378.46)
+		(size 84 17)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd47c45e-baf5-41b6-9bca-c5ec9fd91951")
+		(property "Sheetname" "Power Supply"
+			(at 232.39 377.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/04-Power-Supply.kicad_sch"
+			(at 232.39 396.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexora-SBC"
+				(path "/0146c3e4-a7cc-41a7-aabd-9ae36a2d0016"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.39 378.46)
+		(size 84 17)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f34962d2-0d75-4594-a23f-fed9f474c876")
+		(property "Sheetname" "eMMC, SPI-Flash, T-Card and Boot"
+			(at 44.39 377.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/02-Storage-and-Boot.kicad_sch"
+			(at 44.39 396.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexora-SBC"
+				(path "/0146c3e4-a7cc-41a7-aabd-9ae36a2d0016"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

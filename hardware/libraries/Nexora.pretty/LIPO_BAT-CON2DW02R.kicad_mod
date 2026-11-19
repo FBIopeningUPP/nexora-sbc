@@ -1,0 +1,142 @@
+(footprint "LIPO_BAT-CON2DW02R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "BAT1"
+		(at 0 -5.08 180)
+		(layer "F.SilkS")
+		(uuid "ea6e7334-e373-49ef-bc38-584008f2f9c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.3175)
+			)
+		)
+	)
+	(property "Value" "DW02R"
+		(at -0.04318 4.35864 0)
+		(layer "F.Fab")
+		(uuid "0cee5905-fe08-4ceb-9fc7-b164f616d552")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0596241a-49c0-45b1-9b90-b05e949c77ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43d612f8-6076-4ebf-b89f-87b19eba29ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.06578 -3.15468)
+		(end -3.06578 3.15468)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09435ceb-3382-4b18-8bed-aff7ff9ce11f")
+	)
+	(fp_line
+		(start -3.06578 3.15468)
+		(end 3.01498 3.15468)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b30aabe-5905-4725-b5ad-a2f7e6b54792")
+	)
+	(fp_line
+		(start -3.0607 -3.1623)
+		(end -2.0066 -3.1623)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "872dfdbd-83e0-4b2f-9a57-1d323f8dce9c")
+	)
+	(fp_line
+		(start 2.0066 -3.1623)
+		(end 3.0099 -3.1623)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e4e33df-c26d-4988-9503-8705ee7a3e9f")
+	)
+	(fp_line
+		(start 3.01498 3.15468)
+		(end 3.01498 -3.162302)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ce7f0bf-d128-4221-8e95-f420b0e56f39")
+	)
+	(fp_line
+		(start -3.06324 -3.1496)
+		(end 2.99212 -3.15214)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bc67d972-69e7-47c6-a9b7-25d22adafc62")
+	)
+	(pad "1" thru_hole rect
+		(at -1.00838 -3.15214)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(uuid "04401c01-91ce-4229-b02d-26bc549b12ae")
+	)
+	(pad "2" thru_hole circle
+		(at 1.0033 -3.15468)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(uuid "298ff968-e21b-4f70-8031-2b43d140f072")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/JST_B2B-PH-SM4-TB(DW02R).step"
+		(offset
+			(xyz 0 3.4 2.5)
+		)
+		(scale
+			(xyz 0.75 1 1)
+		)
+		(rotate
+			(xyz 90 0 -180)
+		)
+	)
+)

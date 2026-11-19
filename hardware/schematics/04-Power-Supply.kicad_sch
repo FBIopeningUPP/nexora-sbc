@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ec51e71a-b47d-45ff-8eb5-301cdd89552b")
+	(paper "A3")
+	(title_block
+		(title "Nexora SBC - Power Supply")
+	)
+	(lib_symbols)
+	(text "PMIC and input power"
+		(exclude_from_sim no)
+		(at 27 35 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "0a62fbf3-2779-4b66-baea-8aa7481d5a72")
+	)
+	(text "DDR and USB regulators"
+		(exclude_from_sim no)
+		(at 35 196 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "49e3ed99-ab2b-4d2f-9d90-06ad4a749918")
+	)
+	(text "STM32MP157 power pins"
+		(exclude_from_sim no)
+		(at 279 35 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "6926b038-3e84-4d71-8f13-82df9f99ed42")
+	)
+)

@@ -1,0 +1,66 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1a48d940-1bfe-46ce-8a1d-cf3e7f3296bc")
+	(paper "A2")
+	(title_block
+		(title "Nexora SBC - USB, CAN and Extensions")
+	)
+	(lib_symbols)
+	(text "Serial debug"
+		(exclude_from_sim no)
+		(at 67 190 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "350d34ae-3497-425e-b00a-0ac6fdb799b6")
+	)
+	(text "USB interface and peripherals"
+		(exclude_from_sim no)
+		(at 45 45 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "4af46d59-24a3-418a-8ab1-4236a2f3687a")
+	)
+	(text "Expansion headers"
+		(exclude_from_sim no)
+		(at 45 265 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "62219a2d-1019-4a4f-ad4f-6f64c501516d")
+	)
+	(text "USB ports"
+		(exclude_from_sim no)
+		(at 332 45 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "62a83490-a588-49a8-881d-f3e86be1bd24")
+	)
+	(text "LED and CAN"
+		(exclude_from_sim no)
+		(at 306 190 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "dee2535b-6dc4-4441-97e2-d2e0ca3b610e")
+	)
+)

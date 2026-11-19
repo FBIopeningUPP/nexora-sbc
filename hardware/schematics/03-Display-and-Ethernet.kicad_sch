@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "88429f33-140d-470c-99a0-fddc5691a702")
+	(paper "A2")
+	(title_block
+		(title "Nexora SBC - HDMI, LCD and Ethernet")
+	)
+	(lib_symbols)
+	(text "HDMI and LCD"
+		(exclude_from_sim no)
+		(at 55 44 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "165666fb-5d3a-4bff-a807-1e0c16c6c625")
+	)
+	(text "Configuration EEPROM"
+		(exclude_from_sim no)
+		(at 403 342 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "483ffabf-a22f-40af-92e4-27c47f373d0d")
+	)
+	(text "Gigabit Ethernet"
+		(exclude_from_sim no)
+		(at 55 240 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "ca4cede8-234d-43e5-af13-05fe9e21481c")
+	)
+)
