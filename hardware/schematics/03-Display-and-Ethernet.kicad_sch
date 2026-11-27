@@ -34682,16 +34682,16 @@
 	)
 	(global_label "PB9\\I2C1_SDA"
 		(shape bidirectional)
-		(at 124.46 220.98 0)
+		(at 124.46 220.98 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7959a8eb-a9c7-46e9-aeab-1461f67314ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 220.98 0)
+			(at 124.46 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34872,7 +34872,7 @@
 	)
 	(global_label "PF14\\I2C1_SCL"
 		(shape bidirectional)
-		(at 63.5 220.98 180)
+		(at 63.5 220.98 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34881,7 +34881,7 @@
 		)
 		(uuid "bc0c7dba-a060-4a16-92e7-61ed76d79ed2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 220.98 0)
+			(at 63.5 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42066,6 +42066,7 @@
 	(symbol
 		(lib_id "Nexora:LD1117AG-AD-AA3-A-R")
 		(at 63.5 266.7 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)

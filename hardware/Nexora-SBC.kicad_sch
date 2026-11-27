@@ -24832,7 +24832,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0402"
+		(property "Value" "0R"
 			(at 169.926 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30748,7 +30748,7 @@
 				)
 			)
 		)
-		(property "Value" "R_0402"
+		(property "Value" "0R"
 			(at 169.926 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
